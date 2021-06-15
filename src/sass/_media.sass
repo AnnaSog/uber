@@ -1,0 +1,351 @@
+@media(max-width: 1200px)
+    .menu
+        &_items
+            padding-right: 20px
+        &_link
+            font-size: 13px    
+    .promo
+        .promo_header
+            font-size: 50px
+    
+    .cooperation_text 
+        align-items: flex-start   
+        .cooperation_descr 
+            width: 300px
+    .mobile_item
+        width: 300px
+    .footer
+        &_links
+            width: 300px
+            &_sub
+                a
+                    font-size: 10px
+        &_mobile
+            display: flex
+            justify-content: flex-end
+            align-items: center
+            a
+                padding-top: 6px
+                padding-right: 3px
+                align-items: center
+                
+                               
+
+@media(max-width: 991px)
+    .menu
+        &_items
+            padding-right: 6px
+        &_link
+            font-size: 11px  
+    .subheader
+        .subheader_logo
+            img
+                width: 100%
+        .subheader_official
+            font-size: 10px
+    .subheader_phone                
+        font-size: 18px
+    .subheader_btn
+        margin-top: 21px
+        height: 40px
+        width: 100%
+    .promo
+        .promo_header
+            font-size: 50px
+        .promo_subheader
+            font-style: 30px
+    .cooperation_text
+        flex-direction: column
+        align-items: center
+        .coop_icon
+            margin-right: 0  
+        .cooperation_descr 
+            width: 300px
+            margin-top: 20px
+    .cooperation_subheader
+        font-size: 24px
+    .mobile_item
+        width: 220px
+    .mobile_item_subtitle
+        font-size: 14px  
+    .car
+        &_img
+            width: 100%
+    .footer_mobile
+          flex-direction: column
+          align-items: flex-end
+          a
+              align-items: center 
+         
+@media(max-width: 767px)
+    .menu
+        position: fixed
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        top: 0
+        left: -100%
+        width: 50%
+        height: 100vh
+        padding: 20px 15px
+        background-color: rgba(0, 0, 0, 0.8)
+        transform: 0.6s all
+        &_active
+            left: 0
+        &_items
+            margin: 10px 0
+            padding-right: 0
+            border: none
+        &_link
+            font-size: 20px
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 50%
+        transform: translateY(-50%)        
+        width: 26px
+        height: 12px
+        span
+            display: block
+            height: 2px
+            width: 100%
+            background-color: #fff
+            margin-bottom: 2px
+            transition: 0.5s all
+        &_active
+            span
+                margin-bottom: -2px
+                &:nth-child(1)
+                    transform: translateY(3px) rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)        
+                    transform: translateY(3px) rotate(45deg)
+    .xn-hidden
+        display: none
+    .xs-visible
+        display: block
+    .subheader_official
+        display: none
+    .subheader_phone
+        display: block
+        margin-top: 10px
+        font-size: 16px
+        font-weight: 400
+        text-transform: uppercase
+        text-align: center
+        color: #ffffff  
+    .subheader_btn
+        display: block
+        margin: 0 auto
+        margin-top: 4px
+        width: 200px
+        height: 40px
+    .promo
+        .promo_header
+            line-height: 45px
+    .footer
+        &_wrapper
+            flex-direction: column
+            justify-content: space-between
+            align-items: center
+        &_wrapper > div
+            &:nth-child(3)
+                justify-content: center    
+        &_links
+            margin-top: 15px
+            margin-left: -50px  
+        &_mobile
+            display: flex
+            flex-direction: row
+            justify-content: space-around
+            align-items: center 
+            margin-top: 15px
+            padding-left: 15px
+            a
+                padding-right: 5px
+
+@media(max-width: 575px)
+    nav
+        height: 30px
+    header
+        height: 30px            
+    .subheader
+        height: 60px
+        top: 30px
+        .subheader_logo
+            margin-top: 27px
+            width: 130px
+            height: 15px
+        .subheader_phone 
+            margin-top: 11px
+            font-size: 12px
+            font-weight: 400
+            text-transform: uppercase
+        .subheader_btn
+            width: 116px
+            height: 28px
+            margin-top: 6px
+            font-size: 10px
+            font-weight: 400
+            text-transform: uppercase
+            text-shadow: 1px 1px 0px rgba(0,0,0,0.2)
+            &:hover
+                background-image: linear-gradient(to top, $blue_color 0%, #4ce2ff 100%)
+    .promo
+        min-height: 400px
+        padding: 93px 0 35px 0
+        .promo_header
+            font-size: 30px
+            font-weight: 900
+            line-height: 35px
+            text-transform: uppercase
+            padding: 0 54px
+        .promo_subheader
+            margin-top: 33px
+            font-size: 20px
+            font-weight: 700  
+            line-height: 30px
+        .promo_descr
+            display: none
+        .promo_btn
+            margin-top: 69px
+            width: 216px
+            height: 56px
+            font-size: 16px
+            font-weight: 400
+            text-transform: uppercase
+            &:hover
+                background-image: linear-gradient(to top, $blue_color 0%, #4ce2ff 100%)
+    .menu
+        width: 80%
+        &_items
+            width: 100%
+            text-align: center
+            padding: 5px 0
+        &_link
+            font-size: 17px
+    .cooperation
+        padding: 22px 0 30px 0
+    .cooperation_subheader
+        margin-top: 15px
+        font-size: 16px
+        line-height: 16px
+    .cooperation_text
+        margin-top: 26px
+        
+        .coop_icon
+            width: 100px
+            height: 100px
+            
+        .cooperation_descr
+            width: 100%
+            margin-top: 23px
+            margin-left: 2px
+            font-size: 15px
+            .cooperation_title
+                font-size: 16px
+                line-height: 21px
+    .mobile
+        padding: 22px 0 43px 0
+        .row
+            margin-top: 27px
+        .descr
+            margin-top: 11px
+            font-size: 14px
+        &_item
+            margin-top: 30
+            width: 290px
+            height: 254px
+            &_subtitle
+                font-size: 18px
+                line-height: 31px
+                text-align: center
+    .car
+        min-height: 390px
+        padding: 25px 0 33px 0
+        &_img
+            margin-top: 35px
+            
+        &_choose
+            position: relative
+            display: block
+            margin-top: 23px
+            font-size: 17px
+            line-height: 24px
+            font-weight: 300
+            color: #ffffff
+            z-index: 2
+        .black
+            height: 393px
+            // width: 322px
+    .cooperation_subheader_white
+        display: none
+    .descr_white
+        display: none
+
+    .require
+        padding: 25px 0 26px 0
+        &_block
+            margin-top: 22px
+            margin-bottom: 0
+        &_title
+            font-size: 16px
+        &_list
+            margin-top: 13px
+            padding-left: 39px
+            li
+                font-size: 14px
+                line-height: 18px
+                margin-bottom: 8px
+        &_descr
+            font-size: 14px
+            
+    .world
+        min-height: 360px
+        min-width: 320px
+        padding: 25px 0 30px 0
+        &_white_1
+            display: block
+            margin-top: 15px
+        &_white_2
+            display: block
+            margin-top: 10px
+            font-size: 14px
+            
+    footer
+        padding: 25px 21px 20px 18px
+    .footer
+        &_divider
+            width: 253px
+        &_wrapper
+            padding-top: 22px
+            width: 285px
+        &_wrapper > div
+            width: 70%
+            &:nth-child(1) //соц сети 
+                width: 156px
+                margin-top: 20px
+                order: 2
+            &:nth-child(2)
+                order: 1
+            &:nth-child(3)
+                order: 3
+        &_links_main a
+            font-size: 14px
+        &_links_sub 
+            flex-wrap: wrap
+            width: 246px
+            margin: 0 auto
+            margin-top: 13px
+            line-height: 26px
+            a
+                font-size: 11px
+        &_mobile
+            a
+                &:nth-child(3)
+                    padding-right: 9px
+            
+
+
